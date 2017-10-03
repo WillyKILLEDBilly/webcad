@@ -11,8 +11,6 @@
 |
 */
 
-Route::get('/test', 'TestController@test');
-
 Route::get('/', 'HomeController@show')->name('home');
 
 Auth::routes();
