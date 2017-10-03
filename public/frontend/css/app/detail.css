@@ -1,0 +1,142 @@
+/************************************************************************************
+*** frame
+**/
+.q-detail-frame,
+.q-detail-frame>iframe{
+	height: 500px;
+	width: 100%;
+}
+
+.q-detail-frame{
+	position: relative;
+	overflow: hidden;
+}
+
+.q-detail-frame .q-frame-image,
+.q-detail-frame .q-frame-text{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.q-detail-frame .q-frame-image{
+	z-index: -2;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	filter: blur(5px);
+}
+.q-detail-frame .q-frame-text{
+	z-index: -1;
+	color: #fff;
+	display: table;
+}
+.q-detail-frame .q-frame-text .q-inner{
+	display: table-cell;
+	vertical-align: middle;
+	color: #fff;
+}
+/**
+*** end frame
+******************************************************************************/
+
+/******************************************************************************
+*** detail info
+**/
+.q-detail-info{
+	background-color: #fff;
+	padding: 20px;
+	margin-bottom: 1px;
+}
+.q-like-button{
+	border:2px #9e9e9e solid;
+	padding: 2px;
+	border-radius: 15%;
+	display: inline-block;
+}
+.q-like-button:hover, .q-like-button:hover i{
+	cursor: pointer;
+	color: #ffffff;
+	background-color: #ffab00; 
+	border-color: #ffab00;
+}
+/**
+*** end detail info
+******************************************************************************/
+
+/*****************************************************************************
+*** comment
+**/
+/*template*/
+.q-hidden-comment{
+	display: none;
+}
+.q-comment{
+	margin:30px 0px 0px 0px;
+}
+.q-comment .q-left-content,
+.q-send-comment .q-left-content{
+	padding: 0;
+}
+.q-comment-avatar{
+	border:1px #212121 solid;
+}
+.q-comment .q-right-content,
+.q-send-comment .q-right-content{
+	padding: 0 0 0 15px;
+}
+.q-right-content>.q-comment-text{
+	background-color: #fff;
+	min-height: 90px;
+	padding: 5px;
+}
+/*sending form*/
+.q-send-comment{
+	margin:10px 0 0 0;
+}
+
+/*******************************************************
+/** START OF cutters table
+*******************************************************/
+/*
+	color:#eee;
+	background-color: #212121;
+	*/
+.q-parameters-table table{
+	width:100%;
+	background-color: #212121;
+
+}
+
+.q-parameters-table table td{
+	color:#eee;
+	border:2px #eee solid;
+	text-align: center;
+}
+.q-parameters-table table .q-table-button{
+	color:#eee;
+}
+
+.q-table-button:hover{
+	cursor: pointer;
+	background-color: #ffab00;
+}
+
+.q-detail-draw{
+	margin-top:20px;
+	background-color: #ffffff;
+	background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
+}
+
+
+
+
+
+
+
+
+/** END OF cutters table **/
+
+
+

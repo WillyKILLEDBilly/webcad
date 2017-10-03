@@ -1,0 +1,190 @@
+/*********************************************************************************
+*** large nav
+**/
+/*navbar large*/
+.q-header-background{
+	margin: 0;
+	height: 500px;
+}
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 500px;
+  width: 100%;
+}
+.q-navbar-large{
+	background: transparent;
+	border: none;
+	-webkit-box-shadow: none;
+  	box-shadow: none;
+}
+/*navbar left*/
+.q-navbar-large .q-navbar-left > li > a
+{
+	color:#bdbdbd;
+	font-size:30px;
+	text-shadow:-1px -1px 0 #212121, 
+				1px -1px 0 #212121, 
+				-1px 1px 0 #212121,   
+				1px 1px 0 #212121;
+}
+.q-navbar-large .q-navbar-left  > li > a:hover,
+.q-navbar-large .q-navbar-left  > li > a:focus
+{
+	color:#ffffff;
+	background-color: rgba(198,40,40,0.5);
+}
+.q-navbar-large .q-navbar-left > .open > a,
+.q-navbar-large .q-navbar-left > .active > a {
+	background-color: rgba(189,189,189,0.5);
+	color:#ffffff;
+}
+/*navbar right*/
+.q-navbar-large .q-navbar-right>li>a{
+	font-size: 30px;
+}
+/*header info*/
+.q-header-background>div.container{
+	position: relative;
+}
+.q-header-info{ 
+	padding: 20px;
+	top: 300px;
+	font-size:30px; 
+	left:20%;
+	position: absolute;
+	color:#fff;
+}
+.q-header-logo{ 
+	top: 130px;
+	position: absolute;
+	left:20%;
+}
+.q-header-logo>img{ 
+	width: 200px;
+}
+
+.q-info-container {
+  	padding: 20px 0px 20px  0px ;
+  	background-color: rgb(198,40,40);
+	background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
+}
+.q-info-container .q-info-items>.q-info-item{
+	text-align: center;
+}
+.q-info-container .q-info-items>.q-info-item>span {
+	 color:#fff;
+}
+
+.q-info-container .q-info-items>.q-info-item>div>i{
+	text-shadow:-2px -2px 0 #212121, 
+				2px -2px 0 #212121,
+				-2px 2px 0 #212121,   
+				2px 2px 0 #212121;
+				color:#fff;
+
+}
+/**
+*** end navbar large
+*********************************************************************************/
+/*********************************************************************************
+*** details table 
+**/
+.q-details-table-wrapper{
+	margin-top:50px;
+	margin-bottom: 50px;
+}
+
+.q-details-table>div.row{
+	margin-bottom: 30px;
+}
+
+.q-details-table .q-table-cell:hover{
+	-webkit-box-shadow: 0px 5px 30px 0px #212121;
+	-moz-box-shadow: 0px 5px 30px 0px #212121;
+	box-shadow: 0px 5px 30px 0px #212121;
+}
+
+.q-details-table .q-table-cell .q-background-wrapper{
+	height: 270px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.q-details-table .q-table-cell .q-datail-background{
+	position: absolute;
+	width: 100%;
+	height: 270px;
+	top:0px;
+	background-size: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+	z-index: 0; 
+	transition: filter 1s ease 0.1s;
+}
+
+.q-details-table .q-table-cell .q-background-loop{
+	position: absolute;
+	opacity: 0;
+	top:0px;
+	right: 0px;
+	text-shadow:-1px -1px 0 #212121, 
+				1px -1px 0 #212121,
+				-1px 1px 0 #212121,   
+				1px 1px 0 #212121;
+	width: 50px;
+	height: 50px;
+	display: table;
+}
+.q-table-cell .q-background-loop .q-loop-inner{
+	vertical-align: middle;
+	display: table-cell;
+	width: 100%;
+	height: 100%;
+	color:#fff;
+	background-color:rgba(33, 33, 33, 0.5);
+	border-radius: 50%;
+}
+	
+
+.q-table-cell .q-background-wrapper:hover>.q-background-loop{
+	opacity: 1;
+	transition: opacity 1s ease 0.1s;
+}
+
+.q-table-cell .q-background-wrapper:hover>.q-datail-background{
+	filter:blur(10px);
+    transition: filter 1s ease 0.1s;
+}
+
+.q-details-table .q-table-cell .q-detail-info{
+	background-color: #fff;
+	height: 30px;
+	padding: 5px;
+}
+
+.q-details-table .q-table-cell .q-info-right{
+	float: right;
+}
+
+.q-details-table .q-table-cell .q-info-left{
+	float: left;
+}
+/**
+*** end details table
+**********************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+

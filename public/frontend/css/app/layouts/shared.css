@@ -1,0 +1,181 @@
+/*****************************************************************************
+**** footer 
+***/
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px;
+}
+.footer {
+	border-top:4px rgba(198,40,40,1) solid;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	padding-top:20px;
+}
+.footer div p {
+	color:black;
+}
+/***
+**** end footer
+*****************************************************************************/
+
+/*****************************************************************************
+**** custom styles
+***/
+body{
+	background-color:#eeeeee;
+}
+.q-main-container{
+	margin-top:80px;
+	margin-bottom:80px;
+}
+:not(i){
+	font-family: 'Oswald', sans-serif;
+	color:#212121;/*#212121 grey darken-4*/
+}
+.q-h1{font-size: 36px;}
+.q-h2{font-size: 30px;}
+.q-h3{font-size: 24px;}
+.q-h4{font-size: 18px;}
+.q-h6{font-size: 12px;}
+.q-shadow{
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+.q-shadow-text{
+	text-shadow:-1px -1px 0 #212121, 
+				1px -1px 0 #212121, 
+				-1px 1px 0 #212121,   
+				1px 1px 0 #212121;
+}
+.q-hor-line{
+	background-color: rgba(198,40,40,1);
+	height: 4px;
+}
+/*** icons ***/
+i.q-icon{
+	color:#9e9e9e;
+}
+
+.q-icon-link:hover *{
+	color:#01579b;
+}
+
+.q-icon-button{
+	display: inline-block;
+}
+
+.q-icon-button:hover *{
+	color:#212121;
+	cursor: pointer;
+}
+/*input*/
+.q-input-line{
+	position: relative;
+}
+.q-input-container::after{
+	content: "";
+	border:2px solid transparent;
+	position: absolute;
+	width: 0;
+	height: 0;
+	bottom: 0;
+	left: 0;
+	
+}
+.q-input-line::after{
+	border-color: #212121;
+	position: absolute;
+	width: 100%;
+	transition: width 1.5s;
+}
+.q-input{
+	background-color: transparent;
+	height: 100%;
+	width: 100%;
+	resize: none;
+	outline: none;
+	box-shadow:none !important;
+	border-top:none !important;
+	border-left:none  !important;
+	border-right:none  !important;
+	border-bottom:1px solid #212121;
+	border-radius: 0%;
+	margin: 0;
+}
+/***
+**** end custom styles
+*****************************************************************************/
+
+/*****************************************************************************
+**** small navbar
+***/
+/*base*/
+.navbar-nav>li>a{
+	line-height: 30px;
+}
+/*small*/
+.q-navbar-small{
+	background-color: rgba(255,255,255,0.8);
+	border-bottom: 4px rgb(198,40,40) solid;
+	-webkit-box-shadow: none;
+  	box-shadow: none;
+}
+.q-navbar-small .q-navbar-nav > li > a{
+	font-size:24px;
+}
+/*brand*/
+.q-navbar-brand {
+	font-size:40px;
+	color:rgba(198,40,40,1);
+	text-shadow:-1px -1px 0 #212121, 
+				1px -1px 0 #212121, 
+				-1px 1px 0 #212121,   
+				1px 1px 0 #212121;
+	line-height: 30px;
+}
+.q-navbar-brand:hover {
+	color:#fff;
+}
+/*right*/
+.q-navbar-right .open>a,
+.q-navbar-right .open>a:focus,
+.q-navbar-right .open>a:hover{
+	text-shadow:-1px -1px 0 rgb(198,40,40),
+				1px -1px 0 rgb(198,40,40),
+				-1px 1px 0 rgb(198,40,40),  
+				1px 1px 0 rgb(198,40,40);
+}
+.q-navbar-right{
+	color:#fff;
+	background-color: rgb(198,40,40);
+}
+.q-navbar-right>li>a{
+	color:#fff;
+	text-shadow:-1px -1px 0 #212121, 
+				1px -1px 0 #212121, 
+				-1px 1px 0 #212121,   
+				1px 1px 0 #212121;
+}
+.q-navbar-right .dropdown-menu li>a:hover{
+	color:rgb(198,40,40);
+}
+/*navbar left*/
+.q-navbar-small .q-navbar-left  > li > a:hover,
+.q-navbar-small .q-navbar-left  > li > a:focus{
+	background-color: rgba(198,40,40,0.5);/*#c62828 red darken-3*/
+}
+.q-navbar-small .q-navbar-left > .open > a,
+.q-navbar-small .q-navbar-left > .active > a {
+	background-color: rgba(66,66,66,0.5);
+	color:#ffffff;
+}
+/***
+**** end small navbar
+*****************************************************************************/
+
+
+
