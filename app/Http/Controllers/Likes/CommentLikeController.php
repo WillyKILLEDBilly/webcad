@@ -23,6 +23,7 @@ class CommentLikeController extends Controller
 	            ->where('user_id', Auth::user()->id)
 	            ->first();
 	    //if like doesnt exists create new
+
 	    if ($like == null){
 	        $like = new Like;
 	        $like->state = true;
